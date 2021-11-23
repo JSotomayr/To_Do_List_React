@@ -1,13 +1,71 @@
+
+
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body{
+    background: rgb(185,0,0);
+    background: radial-gradient(circle, rgba(185,0,0,1) 0%, rgba(87,0,0,1) 100%);    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+#app{
+    background: rgb(128, 128, 128);
+    box-shadow: 2rem 1rem 1rem rgb(22, 22, 22);
+    padding-top: 3rem;
+    width: 50rem;
+    height: max-content;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
 
-*/
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.header{
+    font-weight: 500;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+ul{
+    width: 30rem;
+    list-style-type: none;
+    margin-bottom: 3rem;
+    padding: 0;
+}
+
+input{
+    width: 30rem;
+}
+
+li{
+    background: rgb(170, 170, 170);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.check-button{
+    border: none;
+    background: rgb(52, 128, 49);
+    height: fit-content;
+}
+.ex-button{
+    height: fit-content;
+    margin-left: 0.5rem;
+    border: none;
+    background: rgb(155, 68, 68);
+}
